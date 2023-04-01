@@ -25,7 +25,7 @@ class Program
         Console.WriteLine($"Облачность: {weatherResponse.Weather[0].description}");
         Console.WriteLine($"Видимость: {weatherResponse.visibility}");
         Console.WriteLine($"Влажность: {weatherResponse.Main.humidity}");
-        Console.WriteLine($"Влажность: {weatherResponse.wind.speed}");
+        Console.WriteLine($"Скорость ветра: {weatherResponse.wind.speed}");
     }
 }
        
